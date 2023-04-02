@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Press+Start+2P&display=swap");
+body {
+  margin: 20px;
+  font-family: "Press Start 2P", cursive;
+}
+.avartar {
+  width: 150px;
+}
+.card {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin: 0px auto;
+  text-align: center;
+  border-bottom: 2px solid #3f497f;
+  border-radius: 15px;
+  color: #f8f5e4;
+  background-color: #539165;
+  box-shadow: 10px 10px #3f497f;
+}
+.card h3:hover,
+.card h4:hover,
+.card p:hover {
+  color: #f7c04a;
+}
+.card img {
+  background-color: #f7c04a;
+}

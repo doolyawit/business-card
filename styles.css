@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: space-around;
   width: 400px;
-  margin: 0px auto;
+  margin: 200px auto;
   text-align: center;
   border-bottom: 2px solid #3f497f;
   border-radius: 15px;
@@ -26,4 +26,14 @@ body {
 }
 .card img {
   background-color: #f7c04a;
+  border-radius: 15px;
+  width: 150px;
+}
+#name {
+  line-height: 1.5;
+}
+#pos {
+  font-size: 12px;
+  margin-left: 20px;
+  margin-bottom: 30px;
 }
